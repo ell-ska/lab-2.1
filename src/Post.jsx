@@ -1,3 +1,5 @@
+import './post.css'
+
 export default function Post({ title, content }) {
     return (
         <div className="post">
