@@ -1,4 +1,5 @@
 import Header from "./Header"
+import Footer from "./Footer"
 import Post from "./Post"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <div className="posts">
         {posts.map(post => <Post key={post.title} {...post}></Post>)}
       </div>
+      <Footer></Footer>
     </div>
   )
 }
